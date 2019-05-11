@@ -5,10 +5,11 @@ import "fmt"
 // Doubling digits
 
 func main() {
-	a := doublingDigits(11)
+	a := doublingDigits(7)
 	fmt.Println(a)
 
 }
+
 func doublingDigits(n int) int {
 	doubledDigit := n * 2
 	var sum int
