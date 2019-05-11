@@ -2,8 +2,6 @@ package main
 
 import "fmt"
 
-// Doubling digits
-
 func main() {
 	a := doublingDigits(7)
 	fmt.Println(a)
